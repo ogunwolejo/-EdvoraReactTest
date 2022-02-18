@@ -1,0 +1,22 @@
+.transport__container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.transport__container img {
+  margin: 22px 28px 29px 20px;
+}
+
+.transport__container ul {
+  list-style-type: none;
+  margin: 22px 28px 44px 0;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}

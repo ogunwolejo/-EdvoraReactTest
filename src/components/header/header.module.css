@@ -1,0 +1,57 @@
+.header {
+  height: 84px;
+  width: 100%;
+  background-color: #101010;
+}
+
+.company__title {
+  height: 43px;
+  width: 114px;
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 21px 20px 43px;
+}
+
+.header__container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__profile__container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: 84px;
+  margin-right: 21px;
+}
+
+.header__profile__container h4 {
+  height: 24px;
+  width: 121px;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.header__profile__pic {
+  height: 44px;
+  width: 44px;
+  border-radius: 22px;
+  background-image: url("../../images/image2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
